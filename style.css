@@ -769,8 +769,12 @@ h4 {
 }
 
 .bold-link {
-    font-weight: 900;
+    font-weight: 900!important;
     text-decoration: underline!important;
+}
+
+.footer-color {
+    color: #0c2231!important;
 }
 
 .bgc-white {
@@ -786,12 +790,21 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+}
+
+.tc-black {
+    color: #000000!important;
+    font-weight: 400;
+}
+
+.bg-ban-2 {
+    background-color: #b99067;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #0C2231!important;
 }
 
 .btn-atomic-tangerine:hover {
