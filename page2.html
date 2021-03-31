@@ -18,7 +18,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-	
+
     <title>La Chouette Agence - Contact</title>
 
     
@@ -36,7 +36,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo La Chouette Agence" title="Logo La Chouette Agence" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -83,29 +83,29 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" aria-label="Tapez votre nom" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" aria-label="Tapez votre mail" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="sondage">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input id="sondage" class="form-control" type="text" aria-label="Dites-nous comment vous nous avez connu" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="7" cols="66" required></textarea>
+						</label><textarea id="message" class="form-control" rows="7" cols="66" aria-label="Expliquez-nous votre projet" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Validez le formulaire">
 						Envoyer
 					</button>
 				</form>
@@ -121,7 +121,7 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up" aria-label="Retournez en haut de la page"></span></a>
 <!-- ScrollToTop Button END-->
 
 
@@ -136,22 +136,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md footer-color"></span></a>
+							<a class="social" href="index.html" aria-label="Ce lien vous redirige vers notre page Twitter" title="Twitter"><span class="fa fa-twitter icon-md footer-color"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md footer-color"></span></a>
+							<a class="social" href="index.html" aria-label="Ce lien vous redirige vers notre page Facebook" title="Facebook"><span class="fa fa-facebook icon-md footer-color"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md footer-color"></span></a>
+							<a class="social" href="index.html" aria-label="Ce lien vous redirige vers notre page Dribble" title="Dribble"><span class="fa fa-dribbble icon-md footer-color"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md footer-color"></span></a>
+							<a class="social" href="index.html" aria-label="Ce lien vous redirige vers notre page Instagram" title="Instagram"><span class="fa fa-instagram icon-md footer-color"></span></a>
 						</div>
 					</div>
 				</div>
