@@ -269,7 +269,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 80px!important;
 }
 
 .row-no-gutters {
@@ -715,14 +715,14 @@ textarea {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 24px!important;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 21px;
+    font-size: 21px!important;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 700!important;
     color: #333333!important;
 }
 
@@ -732,7 +732,7 @@ h3 {
 }
 
 .quoteAuthor {
-    font-size: 1.7rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: normal;
 }
